@@ -12,6 +12,7 @@ namespace l3
 
 
         {
+
              case 1:
              Console.WriteLine("Введите A");
             int a = int.Parse(Console.ReadLine());
@@ -33,6 +34,11 @@ namespace l3
             case 6:
             int del = a / b;
             Console.WriteLine("{0}", del);
+        
+
+            case 5:
+            int pro = a * b;
+            Console.WriteLine("{0}", pro);
 
             break;
         }
