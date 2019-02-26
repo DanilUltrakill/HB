@@ -18,6 +18,9 @@ namespace l3
            case 2:
             Console.WriteLine("Введите B");
             int b = int.Parse(Console.ReadLine());
+             case 3:
+            int sum = a + b;
+            Console.WriteLine("{0}", sum);
             break;
         }
     }
