@@ -10,6 +10,7 @@ namespace l3
     {
         static void Main(string[] args)
 
+
         {
              case 1:
              Console.WriteLine("Введите A");
@@ -26,6 +27,12 @@ namespace l3
            case 4:
             int raz = a - b;
             Console.WriteLine("{0}", raz);
+
+
+        
+            case 6:
+            int del = a / b;
+            Console.WriteLine("{0}", del);
 
             break;
         }
