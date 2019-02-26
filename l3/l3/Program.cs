@@ -15,6 +15,10 @@ namespace l3
             int a = int.Parse(Console.ReadLine());
             break;
 
+           case 2:
+            Console.WriteLine("Введите B");
+            int b = int.Parse(Console.ReadLine());
+            break;
         }
     }
 }
