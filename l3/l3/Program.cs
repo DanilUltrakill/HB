@@ -21,25 +21,27 @@ namespace l3
            case 2:
             Console.WriteLine("Введите B");
             int b = int.Parse(Console.ReadLine());
+            break;
+
              case 3:
             int sum = a + b;
             Console.WriteLine("{0}", sum);
-       
+            break;
+
            case 4:
             int raz = a - b;
             Console.WriteLine("{0}", raz);
-
+            break;
 
         
             case 6:
             int del = a / b;
             Console.WriteLine("{0}", del);
-        
+            break;
 
             case 5:
             int pro = a * b;
             Console.WriteLine("{0}", pro);
-
             break;
         }
     }
